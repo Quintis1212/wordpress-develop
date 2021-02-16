@@ -1449,6 +1449,7 @@ function single_post_title( $prefix = '', $display = true ) {
 	 * @param string  $_post_title The single post page title.
 	 * @param WP_Post $_post       The current post.
 	 */
+	
 	$title = apply_filters( 'single_post_title', $_post->post_title, $_post );
 	if ( $display ) {
 		echo $prefix . $title;
